@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Curso Basico de Vue.js | Platzi</title>
+  <link rel="stylesheet" href="./styles.css">
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body>
+  <div id="app" v-bind:style="{ background: '#' + color }">
+    <coin-detail
+      v-on:change-color="updateColor"
+      v-bind:coin="btc">
+
+
+      <template v-slot:text>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, aperiam? Non dignissimos nam, voluptatem ducimus eos, pariatur dolor quisquam at asperiores praesentium molestias recusandae cum inventore, omnis consequatur? Voluptate, quo?</p>
+      </template>
+
+      <template v-slot:link>
+        <a href="#">Link!</a>
+      </template>
+    </coin-detail>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="app.js"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6855e4916fd574d7',m:'9a782f13c4f7e6c3bc794e30ea0a734a15288a27-1630073526-1800-ATKqZu5bNKuMB0TLmWCFkXmNXZW/0Qoi/FSxc7MvToCcvBaFQy5mZJVAWR+tt/T+s5LG367g6pFkiLaNZmpHeI9q7erQt4clPxwF5DKGgEzG4y7vWLnEWsKSnanXH37m1Sz9eanE986RzdaHvSiNjFjxabUyKXcN5+S2sktiEt0QSDpIk5yNcR8Zprky8cVMJSC8IgbuVXX0KEAL0rx7WMk0ZOIyVe+nCjBAJIwN+z+/',s:[0xd04f0143b6,0x7860782dcd],}})();</script></body>
+</html>
